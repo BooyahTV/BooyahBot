@@ -5,8 +5,6 @@ const colors = require('colors');
 
 const fetch = require('node-fetch');
 
-const sh = require('shelljs');
-
 const tmi = require('tmi.js');
 
 const twitchclient = new tmi.Client({
